@@ -74,33 +74,33 @@ Enter your choice (1-5):
 
   * **decrypt_image_xor(image_path, output_path, key):** Decrypts an image by applying the XOR operation again with the same key.
 
-  * **main():** The main function that provides the command-line interface and calls the encryption/decryption functions.
+  * **main():** The main function that provides the command-line interface and calls the encryption/decryption functions.  
 
-Examples
-Pixel Swap
-Original Image:
+**Examples** 
+**Pixel Swap**
+* **Original Image:**
 (Replace with an actual screenshot or example image after running the tool)
 
-Encrypted (Pixel Swap) Image:
+* **Encrypted (Pixel Swap) Image:**
 (Replace with an actual screenshot or example image after running the tool)
 
-Decrypted (Pixel Swap) Image:
+* **Decrypted (Pixel Swap) Image:**
 (Replace with an actual screenshot or example image after running the tool)
 
-XOR Operation
-Original Image:
+**XOR Operation**
+* **Original Image:**
 (Same as above)
 
-Encrypted (XOR) Image (with a key, e.g., 123):
+* **Encrypted (XOR) Image (with a key, e.g., 123):**
 (Replace with an actual screenshot or example image after running the tool)
 
-Decrypted (XOR) Image (with the same key):
-(Replace with an actual screenshot or example image after running the tool)
+* **Decrypted (XOR) Image (with the same key):**
+(Replace with an actual screenshot or example image after running the tool)  
 
-Note: For the example images above, you would typically run the tool, save the output images, and then add them to a docs folder in your repository.
+**Note:** For the example images above, you would typically run the tool, save the output images, and then add them to a docs folder in your repository.  
 
-Important Security Disclaimer
-The encryption methods implemented in this tool (simple pixel swapping and XOR) are extremely weak and are not suitable for real-world security applications. They are provided purely for educational purposes to illustrate basic image manipulation concepts and the principles of reversible operations. Real-world image encryption uses much more complex cryptographic algorithms.
+**Important Security Disclaimer**
+The encryption methods implemented in this tool (simple pixel swapping and XOR) are extremely weak and are not suitable for real-world security applications. They are provided purely for educational purposes to illustrate basic image manipulation concepts and the principles of reversible operations. Real-world image encryption uses much more complex cryptographic algorithms.  
 
-Contributing
+**Contributing**  
 Feel free to explore, modify, and improve this tool. If you have suggestions or find issues, please open an issue or submit a pull request.
