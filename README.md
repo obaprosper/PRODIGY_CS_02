@@ -47,7 +47,7 @@ Execute the Python script from your terminal:
 
 **python image_encryption_tool.py**  
 
-Follow the Prompts:
+4. **Follow the Prompts:**  
 The program will display a menu. Choose an option (1-5) and follow the on-screen instructions.
 
 Simple Image Encryption Tool
@@ -60,20 +60,21 @@ Choose an option:
 4. Decrypt Image (XOR Operation)
 5. Exit
 Enter your choice (1-5):
-For XOR encryption/decryption: You will be prompted to enter an integer key between 0 and 255. Remember this key as you'll need the exact same key for decryption.
 
-Code Structure
-image_encryption_tool.py:
+* **For XOR encryption/decryption:** You will be prompted to enter an integer key between 0 and 255. Remember this key as you'll need the exact same key for decryption.  
 
-encrypt_image_swap(image_path, output_path): Encrypts an image by swapping R and B channels.
+**Code Structure**
+* **image_encryption_tool.py:**  
 
-decrypt_image_swap(image_path, output_path): Decrypts an image by re-swapping R and B channels.
+  * **encrypt_image_swap(image_path, output_path):** Encrypts an image by swapping R and B channels.
 
-encrypt_image_xor(image_path, output_path, key): Encrypts an image using a bitwise XOR operation with a given key.
+  * **decrypt_image_swap(image_path, output_path):** Decrypts an image by re-swapping R and B channels.
 
-decrypt_image_xor(image_path, output_path, key): Decrypts an image by applying the XOR operation again with the same key.
+  * **encrypt_image_xor(image_path, output_path, key):** Encrypts an image using a bitwise XOR operation with a given key.
 
-main(): The main function that provides the command-line interface and calls the encryption/decryption functions.
+  * **decrypt_image_xor(image_path, output_path, key):** Decrypts an image by applying the XOR operation again with the same key.
+
+  * **main():** The main function that provides the command-line interface and calls the encryption/decryption functions.
 
 Examples
 Pixel Swap
