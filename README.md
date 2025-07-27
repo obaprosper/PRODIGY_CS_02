@@ -34,7 +34,7 @@ You can install the required Python libraries using pip:
 
 **Bash**   
 
-**git clone https://github.com/obaprosper/PRODIGY_CS_02.git**
+**git clone https://github.com/obaprosper/PRODIGY_CS_02.git**  
 **cd PRODIGY_CS_02**
 
 2. **Place Your Image:**
